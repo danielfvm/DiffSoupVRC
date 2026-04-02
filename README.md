@@ -1,6 +1,8 @@
 # DiffSoupVRC
 DiffSoup implementation for VRChat. You can find the original project page [here](https://github.com/kenji-tojo/diffsoup/)
 On that page you can also find a link to pre generated meshes.
+<img width="2417" height="1165" alt="image" src="https://github.com/user-attachments/assets/888d3635-1dac-4b9c-8db9-7aabe3abe5c7" />
+
 
 ## Usage
 To load a model select in the Menu DiffSoup > Load and select the folder that contains the model.
