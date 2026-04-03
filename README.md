@@ -1,5 +1,5 @@
 # DiffSoupVRC
-DiffSoup implementation for VRChat. You can find the original paper's project page [here](https://github.com/kenji-tojo/diffsoup/). Most of this repositories code
+DiffSoup implementation for VRChat. You can find the original paper's project page [here](https://github.com/kenji-tojo/diffsoup/). Most of this repositorie's code
 was taken from the [Web Viewer](https://github.com/kenji-tojo/diffsoup/blob/main/web/index.html) and converted to HLSL.
 On the same page you can also find a link to pre generated meshes if you want to test it yourself and do not have the compute power to generate your own meshes.
 <img width="2417" height="1165" alt="image" src="https://github.com/user-attachments/assets/888d3635-1dac-4b9c-8db9-7aabe3abe5c7" />
