@@ -1,7 +1,7 @@
 # DiffSoupVRC
 DiffSoup implementation for VRChat. You can find the original paper's project page [here](https://github.com/kenji-tojo/diffsoup/). Most of this repositorie's code
 was taken from the [Web Viewer](https://github.com/kenji-tojo/diffsoup/blob/main/web/index.html) and converted to HLSL.
-On the same page you can also find a link to pre generated meshes if you want to test it yourself and do not have the compute power to generate your own meshes.
+On the same page you can also find a link to pre generated meshes (use the Mobile version) if you want to test it yourself and do not have the compute power to generate your own meshes.
 <img width="2417" height="1165" alt="image" src="https://github.com/user-attachments/assets/888d3635-1dac-4b9c-8db9-7aabe3abe5c7" />
 
 ## Example
@@ -28,3 +28,7 @@ For Quest/Mobile you should ideally keep the Compression to make sure the World 
 - Currently everytime one is loading a model it is Reimporting the LUT textures even if they use the same textures as before -> long loading time due to compression.
 - There is also no option to load a model without compressing it. User has to manually select no compression in LUT texture.
 - Original paper uses two passes which might be more performent then doing everything in one like it is right now, but idk how to do this in VRChat.
+
+## Credits
+- Original paper's [github page](https://github.com/kenji-tojo/diffsoup/)
+- [unity_ply_loader](https://github.com/andy-thomason/unity_ply_loader)
