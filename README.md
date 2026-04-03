@@ -25,6 +25,6 @@ For Quest/Mobile you should ideally keep the Compression to make sure the World 
 ## Known issues / ToDos:
 - Currently the view vector `v` in `DiffSoupGeometry.shader` does not match the result of the Original which leads to a worse final result.
 - The shader requires a bunch of matrices to be set, since MaterialPropertyBlocks are not serialized the only work around I found is to attach an UdonBehaviour that sets the matrices at runtime.
-- Currently everytime one is loading a model it is Reimporting the LUT textures even if they use the same textures as before -> long loading time duo to compression.
+- Currently everytime one is loading a model it is Reimporting the LUT textures even if they use the same textures as before -> long loading time due to compression.
 - There is also no option to load a model without compressing it. User has to manually select no compression in LUT texture.
 - Original paper uses two passes which might be more performent then doing everything in one like it is right now, but idk how to do this in VRChat.
